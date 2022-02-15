@@ -1,0 +1,218 @@
+@import url("/normalize.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.heading_title {
+  padding-top: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 54px;
+}
+
+/*   HEADER    */
+
+.header_main {
+  width: 100%;
+  background-color: #007765;
+  display: flex;
+  height: 84px;
+  align-items: center;
+  position: fixed;
+}
+
+.navigation_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu_link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+/*   JUMBOTRON    */
+
+.jumbotron {
+  background-image: url("/images/image.png");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 244px;
+  padding-bottom: 160px;
+}
+
+.jum_text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*   THE PROBLEM    */
+
+.the_problem {
+  background: #eeeeee;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.problem_p {
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+/*   HERO    */
+
+.hero {
+  background-image: url("/images/image-1.png");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.hero_message {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*   PPC    */
+
+.ppc {
+  background: #ffffff;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.ppc img {
+  margin-right: 48px;
+  float: left;
+  width: 115px;
+  height: 115px;
+  border-radius: 57.5px;
+  border-style: none;
+  box-shadow: 5px 5px 5px #007765;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  outline: none;
+}
+
+.ppc img:hover {
+  box-shadow: 5px 5px 1px gray;
+}
+
+.ppc img:active {
+  box-shadow: none;
+  transform: translateY(5px) translateX(5px);
+}
+
+.ppc_message {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+/*   THE TEAM    */
+
+.the_team {
+  background: #eeeeee;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.person {
+  width: 350px;
+  height: 283px;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding-top: 58px;
+}
+
+.h2_team {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+
+.table_team {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.person_img {
+  width: 168px;
+  height: 168px;
+}
+
+/*   FOOTER    */
+
+.footer {
+  background: #333333;
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+
+.footer_message {
+  width: 540px;
+  height: 64px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
